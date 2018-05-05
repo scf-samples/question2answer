@@ -1,0 +1,7 @@
+applications:
+- name: question2answer
+  buildpack: php_buildpack
+  memory: 128M 
+  disk_quota: 256M
+  services:
+  - question2answer-db

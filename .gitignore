@@ -1,5 +1,5 @@
 # Ignore config file in development
-qa-config.php
+# qa-config.php # in the CF context we can use it
 qa-cache/*/
 
 # Other files
